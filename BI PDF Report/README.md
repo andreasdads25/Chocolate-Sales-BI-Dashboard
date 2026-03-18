@@ -15,14 +15,14 @@ The report provides a complete overview of revenue trends, product performance, 
 
 The dataset covers sales activity across **Australia, Canada, India, New Zealand, UK, and USA**.
 
----
+
 
 ## 📅 Monthly Sales Overview
 
 The report highlights strong performance in the first eight months of the year, with **January ($1,013,622)** and **June ($976,163)** being the highest‑revenue months.  
 Sales drop to zero from **September to December**, indicating missing data or seasonal inactivity.
 
----
+
 
 ## 🌍 Sales by Country
 
@@ -37,7 +37,7 @@ Sales drop to zero from **September to December**, indicating missing data or se
 
 **Australia** is the strongest market, while **New Zealand** shows the lowest performance.
 
----
+
 
 ## 🍫 Top Products by Revenue
 
@@ -50,7 +50,7 @@ The top 10 products contribute **50.5% of total revenue**, with leading items su
 
 These products represent key opportunities for bundling and cross‑selling.
 
----
+
 
 ## 🔍 Strategic Insights
 
@@ -59,7 +59,7 @@ These products represent key opportunities for bundling and cross‑selling.
 - Reassess pricing strategy for **low‑profitability items**.  
 - Investigate missing or inactive sales data for **Q4**.
 
----
+
 
 ## 📁 Contents
 
@@ -80,7 +80,7 @@ This report demonstrates end‑to‑end BI analysis, including:
 
 Ideal for showcasing Business Intelligence and data storytelling skills.
 
----
+
 
 ## 📬 Contact
 
