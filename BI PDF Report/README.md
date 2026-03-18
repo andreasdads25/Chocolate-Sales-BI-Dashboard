@@ -5,7 +5,7 @@ The report provides a complete overview of revenue trends, product performance, 
 
 
 
- **_ Executive Summary**__
+ **_Executive Summary_**
 
 - **Total Revenue:** $6,964,569  
 - **Total Boxes Sold:** 182,019  
@@ -17,14 +17,14 @@ The dataset covers sales activity across **Australia, Canada, India, New Zealand
 
 
 
- **_ Monthly Sales Overview_**
+ **_Monthly Sales Overview_**
 
 The report highlights strong performance in the first eight months of the year, with **January ($1,013,622)** and **June ($976,163)** being the highest‑revenue months.  
 Sales drop to zero from **September to December**, indicating missing data or seasonal inactivity.
 
 
 
- **_ Sales by Country_**
+ **_Sales by Country_**
 
 | Country       | Revenue      |
 |---------------|--------------|
@@ -39,7 +39,7 @@ Sales drop to zero from **September to December**, indicating missing data or se
 
 
 
- **_  Top Products by Revenue_**
+ **_Top Products by Revenue_**
 
 The top 10 products contribute **50.5% of total revenue**, with leading items such as:
 
@@ -52,7 +52,7 @@ These products represent key opportunities for bundling and cross‑selling.
 
 
 
- **_  Strategic Insights_**
+ **_Strategic Insights_**
 
 - Focus marketing efforts on **low‑performing regions** to balance revenue distribution.  
 - Leverage **high‑performing products** for promotional bundles.  
@@ -68,7 +68,7 @@ These products represent key opportunities for bundling and cross‑selling.
 
 ---
 
- **_ Purpose of This Project_**
+ **_Purpose of This Project_**
 
 This report demonstrates end‑to‑end BI analysis, including:
 
@@ -82,7 +82,7 @@ Ideal for showcasing Business Intelligence and data storytelling skills.
 
 
 
- **_  Contact_**
+ **_Contact_**
 
 For questions or collaboration opportunities, feel free to reach out.
 
