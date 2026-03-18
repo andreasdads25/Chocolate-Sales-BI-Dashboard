@@ -5,7 +5,7 @@ The report provides a complete overview of revenue trends, product performance, 
 
 
 
-##  Executive Summary
+## Executive Summary
 
 - **Total Revenue:** $6,964,569  
 - **Total Boxes Sold:** 182,019  
