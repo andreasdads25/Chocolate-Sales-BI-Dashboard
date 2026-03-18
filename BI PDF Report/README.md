@@ -1,11 +1,11 @@
- **_Chocolate Sales BI Report 2024_**_
+ **_Chocolate Sales BI Report 2024_**
  
 This repository contains a Business Intelligence report analyzing global chocolate sales performance for the year 2024.  
 The report provides a complete overview of revenue trends, product performance, and market insights across six countries.
 
 
 
-**## Executive Summary**__
+ **_ Executive Summary**__
 
 - **Total Revenue:** $6,964,569  
 - **Total Boxes Sold:** 182,019  
@@ -17,14 +17,14 @@ The dataset covers sales activity across **Australia, Canada, India, New Zealand
 
 
 
-##  Monthly Sales Overview
+ **_ Monthly Sales Overview_**
 
 The report highlights strong performance in the first eight months of the year, with **January ($1,013,622)** and **June ($976,163)** being the highest‑revenue months.  
 Sales drop to zero from **September to December**, indicating missing data or seasonal inactivity.
 
 
 
-##  Sales by Country
+ **_ Sales by Country_**
 
 | Country       | Revenue      |
 |---------------|--------------|
@@ -39,7 +39,7 @@ Sales drop to zero from **September to December**, indicating missing data or se
 
 
 
-##  Top Products by Revenue
+ **_  Top Products by Revenue_**
 
 The top 10 products contribute **50.5% of total revenue**, with leading items such as:
 
@@ -52,7 +52,7 @@ These products represent key opportunities for bundling and cross‑selling.
 
 
 
-##  Strategic Insights
+ **_  Strategic Insights_**
 
 - Focus marketing efforts on **low‑performing regions** to balance revenue distribution.  
 - Leverage **high‑performing products** for promotional bundles.  
@@ -61,14 +61,14 @@ These products represent key opportunities for bundling and cross‑selling.
 
 
 
-##  Contents
+ **_  Contents_**
 
 - `Chocolate_Sales_BI_Report_2024.pdf` — Full BI report  
 - (Optional) Add dashboards, scripts, or datasets if included in the repo
 
 ---
 
-##  Purpose of This Project
+ **_ Purpose of This Project_**
 
 This report demonstrates end‑to‑end BI analysis, including:
 
@@ -82,7 +82,7 @@ Ideal for showcasing Business Intelligence and data storytelling skills.
 
 
 
-##  Contact
+ **_  Contact_**
 
 For questions or collaboration opportunities, feel free to reach out.
 
