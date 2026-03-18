@@ -1,4 +1,4 @@
- ##Chocolate Sales BI Report 2024##
+ ## Chocolate Sales BI Report 2024
 
 This repository contains a Business Intelligence report analyzing global chocolate sales performance for the year 2024.  
 The report provides a complete overview of revenue trends, product performance, and market insights across six countries.
