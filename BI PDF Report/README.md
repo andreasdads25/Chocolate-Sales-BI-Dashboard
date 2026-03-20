@@ -63,7 +63,7 @@ These products represent key opportunities for bundling and cross‑selling.
 
  **_Contents_**
 
-- `Chocolate_Sales_BI_Report_2024.pdf` — Full BI report  
+- Chocolate_Sales_BI_Report_2024.pdf — Full BI report  
 - (Optional) Add dashboards, scripts, or datasets if included in the repo
 
 
