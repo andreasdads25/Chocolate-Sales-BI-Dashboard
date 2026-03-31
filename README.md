@@ -97,3 +97,9 @@ The total number of products sold.
 
 <img width="291" height="136" alt="image" src="https://github.com/user-attachments/assets/9550af87-240e-4df1-80be-9887638f1f5e" />
 
+
+
+**Average Order Value**
+
+<img width="460" height="79" alt="image" src="https://github.com/user-attachments/assets/79a2d324-bce3-4453-bbdd-a2a3d3b8fadc" />
+
