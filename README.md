@@ -81,6 +81,10 @@ The total number of products sold.
 
 
 
+**Monthly Revenue Trend**
+
+<img width="325" height="124" alt="image" src="https://github.com/user-attachments/assets/9c144650-1fec-4774-9c06-d1ef2f9b06be" />
+
 
 
 
