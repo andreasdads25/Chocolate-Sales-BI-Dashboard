@@ -1,4 +1,6 @@
-Chocolate Sales BI Dashboard
+**Chocolate Sales BI Dashboard**
+
+
 End-to-End Business Intelligence Project | Python | Streamlit | SQL | ETL | PDF Reporting
 
 
