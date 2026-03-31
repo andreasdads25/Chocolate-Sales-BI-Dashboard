@@ -52,9 +52,10 @@ Monthly Trends
 PDF Export
 [Looks like the result wasn't safe to show. Let's switch things up and try something else!]
 
+
+
 Key Performance Indicators (KPIs)
 **1. Total Revenue**
-
 Total income generated from all sales.
 
 **2. Total Quantity Sold**
