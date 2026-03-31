@@ -59,6 +59,7 @@ PDF Export
 
 
 
+
 **Key Performance Indicators (KPIs)**
 
 
@@ -69,6 +70,10 @@ Total income generated from all sales.
 **2. Total Quantity Sold**
 
 The total number of products sold.
+
+
+
+**Sample SQL Queries**
 
 
 
