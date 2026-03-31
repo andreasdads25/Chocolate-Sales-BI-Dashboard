@@ -103,3 +103,17 @@ The total number of products sold.
 
 <img width="460" height="79" alt="image" src="https://github.com/user-attachments/assets/79a2d324-bce3-4453-bbdd-a2a3d3b8fadc" />
 
+
+
+**Business Insights Summary**
+
+- 65% of total revenue comes from just three products.
+
+- The North region delivers the highest profitability.
+
+- Sales show a clear upward trend during Q3–Q4.
+
+- 20% of customers generate 70% of the revenue (Pareto effect).
+
+- There is a strong opportunity for cross‑selling in low‑engagement regions.
+
