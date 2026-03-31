@@ -1,74 +1,72 @@
-Chocolate Sales BI Dashboard  
+Chocolate Sales BI Dashboard
 End-to-End Business Intelligence Project | Python | Streamlit | SQL | ETL | PDF Reporting
 
 Overview
+The Chocolate Sales BI Dashboard is an end‑to‑end Business Intelligence project that integrates:
 
-Το **Chocolate Sales BI Dashboard** είναι ένα end‑to‑end Business Intelligence project που συνδυάζει:
+- A full ETL pipeline in Python
 
-- ETL pipeline σε Python  
-- Καθαρισμό & μετασχηματισμό δεδομένων  
-- Interactive Streamlit dashboard  
-- KPI calculations  
-- PDF export για reporting  
-- Business insights για CEO & Sales Manager  
+- Data cleaning & transformation
 
-Το project έχει σχεδιαστεί με consulting‑grade προδιαγραφές ώστε να δείχνει πραγματική επιχειρησιακή αξία και να λειτουργεί ως πλήρες portfolio piece για BI/Data Analyst ρόλους.
+- An interactive Streamlit dashboard
 
+- KPI calculations
+
+- Automated PDF reporting
+
+- Actionable business insights for the CEO & Sales Manager
+
+The project is designed with consulting‑grade standards to demonstrate real business value and serve as a complete portfolio piece for BI/Data Analyst roles.
 
 Business Scenario
+The company Chocolate Factory has been experiencing unstable sales performance, and the CEO requested a unified BI dashboard to answer key business questions:
 
-Η εταιρεία **Chocolate Factory** παρατηρεί αστάθεια στις πωλήσεις και ο CEO ζήτησε ένα ενιαίο BI dashboard που να απαντά σε κρίσιμες επιχειρησιακές ερωτήσεις:
+- Which products generate the highest profitability?
 
-- Ποια προϊόντα έχουν τη μεγαλύτερη κερδοφορία;  
-- Ποιες περιοχές αποδίδουν καλύτερα;  
-- Πώς εξελίσσονται οι μηνιαίες πωλήσεις;  
-- Ποιοι πελάτες φέρνουν το μεγαλύτερο revenue;  
-- Ποιες τάσεις πρέπει να δει το Sales Manager για να πάρει αποφάσεις;
+- Which regions perform best?
 
-Το dashboard αυτό βοηθά:  
-- τον **CEO** να βλέπει συνολική εικόνα,  
-- τον **Sales Manager** να εντοπίζει ευκαιρίες,  
-- τον **Operations Manager** να προβλέπει ζήτηση.
+- How do monthly sales evolve over time?
 
+- Which customers contribute the most revenue?
+
+- What trends should the Sales Manager monitor to make informed decisions?
+
+This dashboard helps:
+
+- the CEO gain a high‑level overview,
+
+- the Sales Manager identify opportunities,
+
+- the Operations Manager forecast demand.
 
 Dashboard Screenshots
-
 Main Dashboard
-![Dashboard Overview](images/dashboard_overview.png)
+[Looks like the result wasn't safe to show. Let's switch things up and try something else!]
 
 Sales by Product
-![Sales by Product](images/sales_by_product.png)
+[Looks like the result wasn't safe to show. Let's switch things up and try something else!]
 
 Monthly Trends
-![Monthly Trends](images/monthly_trends.png)
+[Looks like the result wasn't safe to show. Let's switch things up and try something else!]
 
 PDF Export
-![PDF Export](images/pdf_export.png)
+[Looks like the result wasn't safe to show. Let's switch things up and try something else!]
 
+Key Performance Indicators (KPIs)
+1. Total Revenue
+Total income generated from all sales.
 
- Key Performance Indicators (KPIs)
+2. Total Quantity Sold
+The total number of products sold.
 
-### 1. Total Revenue  
-Συνολικά έσοδα από όλες τις πωλήσεις.
+3. Average Order Value (AOV)
+Average revenue per order.
 
-### 2. Total Quantity Sold  
-Πόσα προϊόντα πουλήθηκαν συνολικά.
+4. Year-over-Year (YoY) Growth
+Revenue comparison against the previous year.
 
-### 3. Average Order Value (AOV)  
-Μέσο έσοδο ανά παραγγελία.
+5. Top 5 Products by Revenue
+The highest‑earning products.
 
-### 4. Year-over-Year (YoY) Growth  
-Σύγκριση εσόδων με την προηγούμενη χρονιά.
-
-### 5. Top 5 Products by Revenue  
-Τα προϊόντα που φέρνουν το μεγαλύτερο κέρδος.
-
-### 6. Sales by Region  
-Ποιες περιοχές αποδίδουν καλύτερα.
-
-
-
-Project Architecture
-    
-           
-<img width="1287" height="260" alt="image" src="https://github.com/user-attachments/assets/5d15721d-8793-4c05-b322-1443b4408f69" />
+6. Sales by Region
+Geographical performance across markets
