@@ -54,6 +54,7 @@ PDF Export
 
 Key Performance Indicators (KPIs)
 **1. Total Revenue**
+
 Total income generated from all sales.
 
 **2. Total Quantity Sold**
