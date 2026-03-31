@@ -87,7 +87,9 @@ The total number of products sold.
 
 
 
+**Top 5 Customers**
 
+<img width="294" height="141" alt="image" src="https://github.com/user-attachments/assets/0136f97b-b667-46c3-82aa-c9c2958c5b80" />
 
 
 
