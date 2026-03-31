@@ -57,7 +57,8 @@ PDF Export
 
 
 
-Key Performance Indicators (KPIs)
+**Key Performance Indicators (KPIs)**
+
 
 **1. Total Revenue**
 
