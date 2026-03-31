@@ -14,7 +14,6 @@ Overview
 
 Το project έχει σχεδιαστεί με consulting‑grade προδιαγραφές ώστε να δείχνει πραγματική επιχειρησιακή αξία και να λειτουργεί ως πλήρες portfolio piece για BI/Data Analyst ρόλους.
 
----
 
 Business Scenario
 
@@ -31,7 +30,6 @@ Business Scenario
 - τον **Sales Manager** να εντοπίζει ευκαιρίες,  
 - τον **Operations Manager** να προβλέπει ζήτηση.
 
----
 
 Dashboard Screenshots
 
