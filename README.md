@@ -75,6 +75,14 @@ The total number of products sold.
 
 **Sample SQL Queries**
 
+**Total Revenue per Product**
+
+SELECT 
+    product_name,
+    SUM(total_price) AS revenue
+FROM sales
+GROUP BY product_name
+ORDER BY revenue DESC;
 
 
 
