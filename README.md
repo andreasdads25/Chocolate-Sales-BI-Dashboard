@@ -77,7 +77,6 @@ The total number of products sold.
 
 **Total Revenue per Product**
 
-
 <img width="230" height="129" alt="image" src="https://github.com/user-attachments/assets/94a78a43-06c5-4f96-8cb1-766db23c43d6" />
 
 
@@ -93,4 +92,8 @@ The total number of products sold.
 <img width="294" height="141" alt="image" src="https://github.com/user-attachments/assets/0136f97b-b667-46c3-82aa-c9c2958c5b80" />
 
 
+
+**Revenue by Region**
+
+<img width="291" height="136" alt="image" src="https://github.com/user-attachments/assets/9550af87-240e-4df1-80be-9887638f1f5e" />
 
