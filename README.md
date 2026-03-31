@@ -53,20 +53,20 @@ PDF Export
 [Looks like the result wasn't safe to show. Let's switch things up and try something else!]
 
 Key Performance Indicators (KPIs)
-1. Total Revenue
+**1. Total Revenue**
 Total income generated from all sales.
 
-2. Total Quantity Sold
+**2. Total Quantity Sold**
 The total number of products sold.
 
-3. Average Order Value (AOV)
+**3. Average Order Value (AOV)**
 Average revenue per order.
 
-4. Year-over-Year (YoY) Growth
+**4. Year-over-Year (YoY) Growth**
 Revenue comparison against the previous year.
 
-5. Top 5 Products by Revenue
+**5. Top 5 Products by Revenue**
 The highest‑earning products.
 
-6. Sales by Region
+**6. Sales by Region**
 Geographical performance across markets
