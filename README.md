@@ -1,6 +1,7 @@
 Chocolate Sales BI Dashboard
 End-to-End Business Intelligence Project | Python | Streamlit | SQL | ETL | PDF Reporting
 
+
 Overview
 The Chocolate Sales BI Dashboard is an end‑to‑end Business Intelligence project that integrates:
 
@@ -15,6 +16,7 @@ The Chocolate Sales BI Dashboard is an end‑to‑end Business Intelligence proj
 - Automated PDF reporting
 
 - Actionable business insights for the CEO & Sales Manager
+
 
 The project is designed with consulting‑grade standards to demonstrate real business value and serve as a complete portfolio piece for BI/Data Analyst roles.
 
@@ -39,6 +41,7 @@ This dashboard helps:
 
 - the Operations Manager forecast demand.
 
+
 Dashboard Screenshots
 Main Dashboard
 [Looks like the result wasn't safe to show. Let's switch things up and try something else!]
@@ -53,8 +56,12 @@ PDF Export
 [Looks like the result wasn't safe to show. Let's switch things up and try something else!]
 
 
+
 Key Performance Indicators (KPIs)
 
-1. Total Revenue
+**1. Total Revenue**
 Total income generated from all sales.
+
+**2. Total Quantity Sold**
+The total number of products sold.
 
