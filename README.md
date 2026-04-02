@@ -57,39 +57,35 @@ The following diagram illustrates the full data pipeline — from Excel source t
 
 
 
-
 **Dashboard Screenshots** <br><br>
 
 **Main Dashboard** <br><br>
 
 <img width="1904" height="929" alt="Main Dashboard" src="https://github.com/user-attachments/assets/56979476-8748-433c-80a9-0b678f3750b6" /> <br><br>
 
-Sales by Product <br><br>
+**Products & Profitability View** <br><br>
 
-[Looks like the result wasn't safe to show. Let's switch things up and try something else!] <br><br>
+<img width="1644" height="703" alt="Products   Profitability View" src="https://github.com/user-attachments/assets/61bd82f0-e56f-4fbc-bdb2-2e64dbfaac05" /> <br><br>
 
-Monthly Trends <br><br>
+**Sales Performance View** <br><br>
 
-[Looks like the result wasn't safe to show. Let's switch things up and try something else!] <br><br>
+<img width="1697" height="944" alt="Sales Performance View" src="https://github.com/user-attachments/assets/81887edd-6cef-43dd-84c7-b31cb3a97d51" /> <br><br>
 
-PDF Export <br><br>
+**Drill‑Down Country View** <br><br>
 
-[Looks like the result wasn't safe to show. Let's switch things up and try something else!] <br><br>
+<img width="1670" height="714" alt="Drill‑Down Country View" src="https://github.com/user-attachments/assets/037c0eb7-8b2c-463c-a142-6c57e69fd1bf" /> <br><br>
 
+**PDF Export** <br><br>
 
+**1. Screenshot from Dashboard "Download BI PDF Report"** <br><br>
 
+<img width="1647" height="96" alt="Download BI PDF Report" src="https://github.com/user-attachments/assets/1c1aad96-8c5a-4aff-9397-01b7ffb8016b" /> <br><br>
 
-**Key Performance Indicators (KPIs)** <br><br>
+**2. BI PDF Report** <br><br> 
 
+<img width="655" height="932" alt="Chocolate Sales BI report" src="https://github.com/user-attachments/assets/667b9eb4-080b-43e8-af5f-ed3b86d7e30c" /> <br><br>
 
-**1. Total Revenue** <br><br>
-
-Total income generated from all sales. <br><br>
-
-**2. Total Quantity Sold** <br><br>
-
-The total number of products sold. <br><br>
-
+<img width="642" height="747" alt="Chocolate Sales BI report2" src="https://github.com/user-attachments/assets/af7207cc-77e6-4a61-a6ac-4a297464647f" /> <br> <br>
 
 
 **Sample SQL Queries** <br><br>
