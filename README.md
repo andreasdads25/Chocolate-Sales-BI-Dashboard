@@ -127,7 +127,7 @@ Provides country‑level KPIs and detailed performance insights for market‑spe
 **1. Download Button** <br><br>
 
 
-<img width="1647" height="96" alt="Download BI PDF Report" src="https://github.com/user-attachments/assets/1c1aad96-8c5a-4aff-9397-01b7ffb8016b" /> <br><br>
+ <img width="1655" height="88" alt="pdf_export_button" src="https://github.com/user-attachments/assets/b50eb49c-f555-4dc5-af68-5c663699159f" /> <br><br>
 
 
 Enables one‑click export of the filtered dashboard view into a professionally formatted PDF report for executives. <br><br>
