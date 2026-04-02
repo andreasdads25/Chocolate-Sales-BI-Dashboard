@@ -48,7 +48,8 @@ Data Pipeline Overview
 
 The following diagram illustrates the full data pipeline — from Excel source to final PDF report — integrating Python ETL, SQL analysis, and Streamlit dashboarding.
 
-![ETL Diagram](assets/etl_diagram.png)
+![ETL Diagram](assets/etl_<img width="1536" height="1024" alt="ETL Diagram png" src="https://github.com/user-attachments/assets/57c62dd4-7fef-4d81-a8a2-934b2735f37e" />
+diagram.png)
 
 
 Dashboard Screenshots
