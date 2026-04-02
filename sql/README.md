@@ -22,7 +22,8 @@ Contains scripts related to the initial ingestion of data. <br><br>
 
 
 **2️ CLEANING LAYER — `/02_cleaning`** <br><br>
-Contains transformations that clean, standardize, and validate the raw data.
+
+Contains transformations that clean, standardize, and validate the raw data. <br><br>
 
 **Files:** <br><br>
 - `01_clean_sales.sql` → Cleans and standardizes fields (dates, profitability, etc.) <br><br>
