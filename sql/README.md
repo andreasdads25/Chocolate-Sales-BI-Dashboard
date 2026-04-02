@@ -34,45 +34,45 @@ Contains transformations that clean, standardize, and validate the raw data.
 
 
 
-## 3️ ANALYSIS LAYER — `/03_analysis`
-Contains analytical SQL queries used to compute KPIs and business metrics.
+**3️ ANALYSIS LAYER — `/03_analysis`** <br><br>
+Contains analytical SQL queries used to compute KPIs and business metrics. <br><br>
 
-**Files:**
-- `01_total_revenue_per_product.sql`
-- `02_monthly_revenue_trend.sql`
-- `03_top_5_customers.sql`
-- `04_revenue_by_region.sql`
-- `05_average_order_value.sql`
+**Files:** <br><br>
+- `01_total_revenue_per_product.sql` <br><br>
+- `02_monthly_revenue_trend.sql` <br><br>
+- `03_top_5_customers.sql` <br><br>
+- `04_revenue_by_region.sql` <br><br>
+- `05_average_order_value.sql` <br><br>
 
-**Purpose:**
-- Provide reusable analytical queries.
-- Support dashboard visualizations and PDF reporting.
-- Demonstrate business understanding through SQL.
-
-
-
-## 4️ SEMANTIC LAYER — `/04_final_views`
-Contains final SQL views consumed directly by the dashboard.
-
-**Files:**
-- `01_sales_dashboard_view.sql`
-
-**Purpose:**
-- Provide a unified, analysis‑ready dataset.
-- Improve dashboard performance.
-- Serve as the “single version of truth” for BI reporting.
+**Purpose:** <br><br>
+- Provide reusable analytical queries. <br><br>
+- Support dashboard visualizations and PDF reporting. <br><br>
+- Demonstrate business understanding through SQL. <br><br>
 
 
 
-##  Summary
-This SQL folder demonstrates a complete BI pipeline:
+**4️ SEMANTIC LAYER — `/04_final_views`** <br><br>
+Contains final SQL views consumed directly by the dashboard. <br><br>
 
-**Raw → Clean → Analyze → Serve**
+**Files:** <br><br>
+- `01_sales_dashboard_view.sql` <br><br>
 
-This structure ensures:
-- maintainability  
-- scalability  
-- clarity  
-- professional BI engineering standards  
+**Purpose:** <br><br>
+- Provide a unified, analysis‑ready dataset. <br><br>
+- Improve dashboard performance. <br><br>
+- Serve as the “single version of truth” for BI reporting. <br><br>
 
-It mirrors how real BI teams organize SQL in enterprise environments.
+
+
+**Summary** <br><br>
+This SQL folder demonstrates a complete BI pipeline: <br><br>
+
+**Raw → Clean → Analyze → Serve** <br><br>
+
+This structure ensures: <br><br>
+- maintainability  <br><br>
+- scalability  <br><br>
+- clarity  <br><br>
+- professional BI engineering standards  <br><br>
+
+It mirrors how real BI teams organize SQL in enterprise environments. <br><br>
