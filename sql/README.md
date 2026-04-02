@@ -1,4 +1,4 @@
-#  SQL Layer Documentation
+#  **SQL Layer Documentation**
 
 This folder contains the full SQL pipeline for the **Chocolate Sales BI Dashboard**.  
 The structure follows consulting‑grade BI standards and is organized into four layers:
