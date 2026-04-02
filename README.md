@@ -4,10 +4,10 @@
 End-to-End Business Intelligence Project | Python | Streamlit | SQL | ETL | PDF Reporting <br><br>
 
 
-Overview <br><br>
+**Overview** <br><br>
 The Chocolate Sales BI Dashboard is an end‑to‑end Business Intelligence project that integrates: <br><br>
 
-- A full ETL pipeline in Python
+- A full ETL pipeline in Python <br><br>
 
 - Data cleaning & transformation
 
