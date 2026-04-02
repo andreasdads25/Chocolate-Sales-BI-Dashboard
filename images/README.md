@@ -1,1 +1,0 @@
-This folder contains dashboard preview images used for project documentation, GitHub presentation and LinkedIn showcase. These visuals highlight the key features, KPIs and interactive elements of the Chocolate Sales BI Dashboard.
