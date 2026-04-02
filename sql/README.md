@@ -16,8 +16,8 @@ Contains scripts related to the initial ingestion of data. <br><br>
 
 **Purpose:** <br><br>
 
-- Store the unmodified transactional data exactly as received.
-- Provide a single source of truth before any transformations.
+- Store the unmodified transactional data exactly as received. <br><br>
+- Provide a single source of truth before any transformations. <br><br>
 
 
 
