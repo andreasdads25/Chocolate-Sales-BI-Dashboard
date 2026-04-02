@@ -59,16 +59,21 @@ The following diagram illustrates the full data pipeline — from Excel source t
 
 
 **Dashboard Screenshots** <br><br>
-Main Dashboard<br><br>
+
+Main Dashboard <br><br>
+
+<img width="1904" height="929" alt="Main Dashboard" src="https://github.com/user-attachments/assets/56979476-8748-433c-80a9-0b678f3750b6" /> <br><br>
+
+Sales by Product <br><br>
+
 [Looks like the result wasn't safe to show. Let's switch things up and try something else!] <br><br>
 
-Sales by Product
+Monthly Trends <br><br>
+
 [Looks like the result wasn't safe to show. Let's switch things up and try something else!] <br><br>
 
-Monthly Trends
-[Looks like the result wasn't safe to show. Let's switch things up and try something else!] <br><br>
+PDF Export <br><br>
 
-PDF Export
 [Looks like the result wasn't safe to show. Let's switch things up and try something else!] <br><br>
 
 
