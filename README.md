@@ -44,7 +44,7 @@ This dashboard helps:
 - the Operations Manager forecast demand.
 
 
-Data Pipeline Overview
+**Data Pipeline Overview**
 
 The following diagram illustrates the full data pipeline — from Excel source to final PDF report — integrating Python ETL, SQL analysis, and Streamlit dashboarding.
 
