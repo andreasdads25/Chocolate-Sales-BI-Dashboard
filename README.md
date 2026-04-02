@@ -50,6 +50,11 @@ The following diagram illustrates the full data pipeline — from Excel source t
 
 <img width="1358" height="235" alt="etl diagram" src="https://github.com/user-attachments/assets/6b1e15bd-9a5a-49cd-8802-c1ffdcc114e6" /> <br><br>
 
+**Entity Relationship Diagram** (ERD) <br><br>
+
+<img width="1024" height="1536" alt="ERD Diagram" src="https://github.com/user-attachments/assets/01414ca5-199e-4e6c-be71-7ff062071b39" /> <br><br>
+
+
 
 **Dashboard Screenshots** <br><br>
 Main Dashboard<br><br>
