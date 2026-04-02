@@ -5,7 +5,7 @@ The structure follows consulting‑grade BI standards and is organized into four
 
 
 
-£# 1️ RAW LAYER — `/01_raw`
+## 1️ RAW LAYER — `/01_raw`
 Contains scripts related to the initial ingestion of data.
 
 **Files:**
