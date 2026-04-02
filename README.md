@@ -48,7 +48,7 @@ This dashboard helps:
 
 The following diagram illustrates the full data pipeline — from Excel source to final PDF report — integrating Python ETL, SQL analysis, and Streamlit dashboarding.
 
-<img width="1536" height="1024" alt="ETL Diagram png" src="https://github.com/user-attachments/assets/57c62dd4-7fef-4d81-a8a2-934b2735f37e" />
+<<img width="1358" height="235" alt="etl diagram" src="https://github.com/user-attachments/assets/6b1e15bd-9a5a-49cd-8802-c1ffdcc114e6" />>
 
 
 Dashboard Screenshots
