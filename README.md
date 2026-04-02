@@ -52,7 +52,7 @@ The following diagram illustrates the full data pipeline — from Excel source t
 
 **Entity Relationship Diagram** (ERD) <br><br>
 
-<img width="521" height="860" alt="erd diagrammm" src="https://github.com/user-attachments/assets/e790da0e-d3ab-4c67-a7fa-59c67227f316" /> <br><br>
+<img width="1218" height="795" alt="erd diagrammmm" src="https://github.com/user-attachments/assets/9948c498-035e-45b0-95bd-b13a4ec2ce41" /> <br><br>
 
 
 
