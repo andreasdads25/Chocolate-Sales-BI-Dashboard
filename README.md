@@ -51,7 +51,7 @@ The following diagram illustrates the full data pipeline — from Excel source t
 <img width="1358" height="235" alt="etl diagram" src="https://github.com/user-attachments/assets/6b1e15bd-9a5a-49cd-8802-c1ffdcc114e6" /> <br><br>
 
 
-**Entity Relationship Diagram** (ERD) <br><br>
+**Entity Relationship Diagram (ERD)** <br><br>
 
 <img width="1024" height="1536" alt="Copilot_20260402_080457" src="https://github.com/user-attachments/assets/2cea43de-6069-4a80-8412-dc866a4184e7" /> <br><br>
 
@@ -60,7 +60,7 @@ The following diagram illustrates the full data pipeline — from Excel source t
 
 **Dashboard Screenshots** <br><br>
 
-Main Dashboard <br><br>
+**Main Dashboard** <br><br>
 
 <img width="1904" height="929" alt="Main Dashboard" src="https://github.com/user-attachments/assets/56979476-8748-433c-80a9-0b678f3750b6" /> <br><br>
 
