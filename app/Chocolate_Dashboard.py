@@ -78,7 +78,7 @@ def load_data():
 
 # Custom loading spinner για όλο το dashboard
 with st.spinner("Loading Chocolate Sales Dashboard..."):
-    time.sleep(0.7)  # μικρό τεχνητό delay για πιο smooth εμπειρία
+    time.sleep(3)  # μικρό τεχνητό delay για πιο smooth εμπειρία
     df = load_data()
 
 # ---------------------------------------------------------
