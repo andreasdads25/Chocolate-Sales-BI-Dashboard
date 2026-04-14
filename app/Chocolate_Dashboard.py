@@ -60,7 +60,7 @@ h1, h2, h3 {
 # ---------------------------------------------------------
 @st.cache_data(show_spinner=False)
 def load_data():
-    df = pd.read_excel("Data.xlsx", sheet_name="Data_Raw")
+    df = pd.read_excel("data/Data.xlsx", sheet_name="Data_Raw")
 
     df["Date"] = pd.to_datetime(df["Date"], errors="coerce")
     df["Year"] = df["Date"].dt.year
