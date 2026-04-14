@@ -543,4 +543,17 @@ def build_bi_pdf(df, filtered_df, drill_df, year_filter, country_filter, drill_c
     for _, row in monthly_sales_pdf.iterrows():
         ms_data.append([row["Month"], f"${row['Amount']:,.0f}"])
 
-    ms_table = Table(
+   ms_table = Table(
+    ms_data,
+    style=[
+        ("BACKGROUND", (0,0), (-1,0), BLUE),
+        ("TEXTCOLOR", (0,0), (-1,0), colors.white),
+        ("GRID", (0,0), (-1,-1), 0.25, colors.grey),
+        ("ALIGN", (1,1), (-1,-1), "RIGHT"),
+        ("FONTNAME", (0,0), (-1,0), "Helvetica-Bold"),
+    ]
+)
+
+story.append(ms_table)
+story.append(Spacer(1, 24))
+
