@@ -1,3 +1,4 @@
+import time
 import streamlit as st
 import pandas as pd
 import plotly.express as px
@@ -56,7 +57,7 @@ h1, h2, h3 {
 """, unsafe_allow_html=True)
 
 # ---------------------------------------------------------
-# 3. LOAD DATA
+# 3. LOAD DATA (CACHED)
 # ---------------------------------------------------------
 @st.cache_data(show_spinner=False)
 def load_data():
@@ -75,7 +76,10 @@ def load_data():
 
     return df
 
-df = load_data()
+# Custom loading spinner για όλο το dashboard
+with st.spinner("Loading Chocolate Sales Dashboard..."):
+    time.sleep(0.7)  # μικρό τεχνητό delay για πιο smooth εμπειρία
+    df = load_data()
 
 # ---------------------------------------------------------
 # 4. SIDEBAR FILTERS
@@ -84,7 +88,6 @@ with st.sidebar:
     st.title("🍫 Filters")
 
     year_list = sorted(df["Year"].unique(), reverse=True)
-    # unique key για να είμαστε 100% safe
     year_filter = st.selectbox("Select Year", year_list, key="year_filter_main")
 
     country_list = sorted(df["Country"].unique())
@@ -169,6 +172,105 @@ monthly_sales = (
 )
 
 # ---------------------------------------------------------
+# 6. CACHED PLOT BUILDERS (PERFORMANCE TUNING)
+# ---------------------------------------------------------
+@st.cache_resource
+def build_monthly_sales_fig(monthly_sales_df):
+    ms = monthly_sales_df.copy()
+    ms["Rolling_3M"] = ms["Amount"].rolling(3).mean()
+    fig = px.line(
+        ms,
+        x="Month",
+        y=["Amount", "Rolling_3M"],
+        markers=True,
+        line_shape="spline",
+        color_discrete_sequence=["#E67E22", "#3498DB"],
+    )
+    fig.update_layout(legend_title_text="Metric")
+    return fig
+
+@st.cache_resource
+def build_country_sales_fig(country_sales_df):
+    fig = px.bar(
+        country_sales_df,
+        x="Country",
+        y="Amount",
+        color="Amount",
+        color_continuous_scale="Blues"
+    )
+    return fig
+
+@st.cache_resource
+def build_top_products_fig(top_products_df):
+    fig = px.bar(
+        top_products_df,
+        x="Amount",
+        y="Product",
+        orientation="h",
+        color="Amount",
+        color_continuous_scale="Oranges"
+    )
+    return fig
+
+@st.cache_resource
+def build_profitability_scatter_fig(prod_profit_df):
+    fig = px.scatter(
+        prod_profit_df,
+        x="Amount",
+        y="Profitability",
+        size="Amount",
+        color="Profitability",
+        hover_name="Product",
+        color_continuous_scale="Greens"
+    )
+    return fig
+
+@st.cache_resource
+def build_salesperson_fig(leaderboard_df):
+    fig = px.bar(
+        leaderboard_df,
+        x="Sales Person",
+        y="Amount",
+        color="Amount",
+        color_continuous_scale="Purples"
+    )
+    return fig
+
+@st.cache_resource
+def build_boxes_fig(boxes_df):
+    fig = px.bar(
+        boxes_df,
+        x="Sales Person",
+        y="Boxes Shipped",
+        color="Boxes Shipped",
+        color_continuous_scale="Teal"
+    )
+    return fig
+
+@st.cache_resource
+def build_drill_products_fig(drill_top_products_df):
+    fig = px.bar(
+        drill_top_products_df,
+        x="Amount",
+        y="Product",
+        orientation="h",
+        color="Amount",
+        color_continuous_scale="Oranges"
+    )
+    return fig
+
+@st.cache_resource
+def build_drill_sales_fig(drill_sales_df):
+    fig = px.bar(
+        drill_sales_df,
+        x="Sales Person",
+        y="Amount",
+        color="Amount",
+        color_continuous_scale="Blues"
+    )
+    return fig
+
+# ---------------------------------------------------------
 # 7. KPI ROW UI
 # ---------------------------------------------------------
 st.markdown("## 📊 Executive Summary")
@@ -221,30 +323,13 @@ with tab1:
     # Monthly Sales Trend
     with c1:
         st.subheader("📈 Monthly Sales Trend")
-        monthly_sales_plot = monthly_sales.copy()
-        monthly_sales_plot["Rolling_3M"] = monthly_sales_plot["Amount"].rolling(3).mean()
-
-        fig_line = px.line(
-            monthly_sales_plot,
-            x="Month",
-            y=["Amount", "Rolling_3M"],
-            markers=True,
-            line_shape="spline",
-            color_discrete_sequence=["#E67E22", "#3498DB"],
-        )
-        fig_line.update_layout(legend_title_text="Metric")
+        fig_line = build_monthly_sales_fig(monthly_sales)
         st.plotly_chart(fig_line, use_container_width=True, key="monthly_sales_trend")
 
     # Sales by Country
     with c2:
         st.subheader("🌍 Sales by Country")
-        fig_country = px.bar(
-            country_sales,
-            x="Country",
-            y="Amount",
-            color="Amount",
-            color_continuous_scale="Blues"
-        )
+        fig_country = build_country_sales_fig(country_sales)
         st.plotly_chart(fig_country, use_container_width=True, key="sales_by_country")
 
 # ---------------------------------------------------------
@@ -256,14 +341,7 @@ with tab2:
     # Top 10 Products
     with c3:
         st.subheader("🏆 Top 10 Products by Revenue")
-        fig_top = px.bar(
-            top_products,
-            x="Amount",
-            y="Product",
-            orientation="h",
-            color="Amount",
-            color_continuous_scale="Oranges"
-        )
+        fig_top = build_top_products_fig(top_products)
         st.plotly_chart(fig_top, use_container_width=True, key="top_products")
 
     # Profitability Scatter
@@ -277,15 +355,7 @@ with tab2:
             )
             top_prod_profit = prod_profit.sort_values("Amount", ascending=False).head(15)
 
-            fig_scatter = px.scatter(
-                top_prod_profit,
-                x="Amount",
-                y="Profitability",
-                size="Amount",
-                color="Profitability",
-                hover_name="Product",
-                color_continuous_scale="Greens"
-            )
+            fig_scatter = build_profitability_scatter_fig(top_prod_profit)
             st.plotly_chart(fig_scatter, use_container_width=True, key="profitability_scatter")
         else:
             st.info("No numeric Profitability column available.")
@@ -296,13 +366,7 @@ with tab2:
 with tab3:
     st.subheader("👥 Salesperson Leaderboard")
 
-    fig_salesperson = px.bar(
-        leaderboard,
-        x="Sales Person",
-        y="Amount",
-        color="Amount",
-        color_continuous_scale="Purples"
-    )
+    fig_salesperson = build_salesperson_fig(leaderboard)
     st.plotly_chart(fig_salesperson, use_container_width=True, key="salesperson_leaderboard")
 
     st.subheader("📦 Boxes Shipped by Salesperson")
@@ -313,13 +377,7 @@ with tab3:
         .reset_index()
     )
 
-    fig_boxes = px.bar(
-        boxes_leaderboard,
-        x="Sales Person",
-        y="Boxes Shipped",
-        color="Boxes Shipped",
-        color_continuous_scale="Teal"
-    )
+    fig_boxes = build_boxes_fig(boxes_leaderboard)
     st.plotly_chart(fig_boxes, use_container_width=True, key="boxes_by_salesperson")
 
 # ---------------------------------------------------------
@@ -342,14 +400,7 @@ with tab4:
                 .nlargest(10)
                 .reset_index()
             )
-            fig_drill_prod = px.bar(
-                drill_top_products,
-                x="Amount",
-                y="Product",
-                orientation="h",
-                color="Amount",
-                color_continuous_scale="Oranges"
-            )
+            fig_drill_prod = build_drill_products_fig(drill_top_products)
             st.plotly_chart(fig_drill_prod, use_container_width=True, key="drilldown_products")
 
         # Salesperson Performance in Focus Country
@@ -361,13 +412,7 @@ with tab4:
                 .sort_values(ascending=False)
                 .reset_index()
             )
-            fig_drill_sales = px.bar(
-                drill_sales,
-                x="Sales Person",
-                y="Amount",
-                color="Amount",
-                color_continuous_scale="Blues"
-            )
+            fig_drill_sales = build_drill_sales_fig(drill_sales)
             st.plotly_chart(fig_drill_sales, use_container_width=True, key="drilldown_salespersons")
 
 # ---------------------------------------------------------
