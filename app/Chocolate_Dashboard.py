@@ -554,6 +554,6 @@ def build_bi_pdf(df, filtered_df, drill_df, year_filter, country_filter, drill_c
     ]
 )
 
-story.append(ms_table)
+story.append(ms_table) 
 story.append(Spacer(1, 24))
 
