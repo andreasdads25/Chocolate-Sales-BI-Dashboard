@@ -31,6 +31,7 @@ st.markdown("""
 # ---------------------------------------------------------
 @st.cache_data
 def load_data():
+    df = pd.read_excel("../data/Data.xlsx")
     base = os.path.dirname(os.path.abspath(__file__))
     path = os.path.join(base, "Data", "Data.xlsx")
     if not os.path.exists(path): return pd.DataFrame()
