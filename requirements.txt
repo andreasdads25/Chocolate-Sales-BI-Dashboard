@@ -1,7 +1,6 @@
 streamlit
 pandas
 plotly
-matplotlib
-fpdf
 openpyxl
 reportlab
+streamlit-option-menu
